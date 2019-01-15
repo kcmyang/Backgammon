@@ -1,0 +1,70 @@
+﻿Avery Shum & Marco Yang
+Final project update log
+
+fri 22 dec
+- Avery: created main structure (classes Board, BoardPanel, GameFrame, GamePanel, MainMenuPanel, Pip, Checker)
+
+sun 24 dec
+- Marco: added button functionality to parts of MainMenuPanel and GamePanel
+
+---------
+
+sun 7 jan
+- Marco: made graphics (board, pips, stones, die faces), created Dice class
+
+mon 8 jan
+- both: edited graphics (board, highlighted pips), created Images class, replaced Checker class with Stone class
+
+tue 9 jan
+- both: coded board init (default start position) & graphics (pips and stones)
+
+wed 10 jan
+- both: created Hitbox class
+
+thu 11 jan
+- both: implemented Hitbox functionality and added custom mouse methods so that mouse actions can be handled by a non-Component (Board class), added highlighting of pips when mouse hovers over them, cleaned up graphics methods in Pip
+- Marco: updated sprites (stones, pips, homes), added image dimensions to Images class
+- Avery: dice drawing
+
+fri 12 jan
+- both: discussed “game loop” and turn logic: game determines all possible moves, checks for move input of type Move, executes the Move, then repeats until no valid moves are left; then proceeds to next player
+- Marco: added stone highlighting to indicate start of a possible move; housekeeping in Dice class and drawing; housekeeping in other drawing
+- Avery: added JMenuBar to GamePanel (will expand functionality later)
+
+sat 13 jan
+- don’t remember if anything lol
+
+sun 14 jan
+- Marco: implemented StateManager class for better view switching, implemented InformationPanel, discovered the power of lambda expressions and PropertyChangeListener for passing/handling events
+
+mon 15 jan
+- both: overhaul of Dice/Die, clicking mechanics; brainstormed how to make the actual game run :(
+
+tue 16 jan
+- Avery: move calculator
+
+wed 17 jan
+- both: moved pips to AllPips, joptionpane for new game menu
+
+thu 18 jan
+- a lot
+- both: made stones actually move; save/load functionality; GUI cleanup
+- marco: move calculator algorithm & move/dice data structuring
+- avery: the game loop (actually just a list) & readying game for inputs
+
+mon 22 jan
+- both: overhauled mouse input; a lot more/better null checking
+- marco: lots of commenting; fixed move calculator
+
+wed 24 jan
+- marco: more null checks; highlighting intermediate pips for moves; reworked graphics; moving stones onto/off the bar for real
+
+thu 25 jan
+- avery: bug fixes in highlighting moves; drawing the win screen recursively
+- marco: bug fixes in moving home, executing multi-dice moves; graphical improvements (pip numbers flip depending on turn)
+
+fri 26
+- avery: force win screen button
+- marco: more moving-home-optimisation; rewrote information text; win condition checks
+- both: a lot of debugging together :D; JScrollPane in InformationPanel (rename); lots of commenting; win condition checks; better recursive drawing
+
